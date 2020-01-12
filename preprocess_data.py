@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import numpy as np
 
-def process_data(dataset_num=2, gender = 0):
+def process_data(dataset_num=2, gender = 1):
 
     '''
     Processes the EMG data for a specified gender from the raw csv files 
