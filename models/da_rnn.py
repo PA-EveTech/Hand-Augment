@@ -12,7 +12,7 @@ import numpy as np
 from modules import encoder, decoder
 
 class da_rnn(nn.Module):
-    def __init__(self, train_data, n_targs, encoder_hidden_size, decoder_hidden_size, T, learning_rate, batch_size)
+    def __init__(self, train_data, encoder_hidden_size, decoder_hidden_size, T, learning_rate, batch_size)
         super(da_rnn, self).__init__()
         input_size = train_data.shape[1]
 
